@@ -10,9 +10,9 @@ return (
   <div className="App">
 
    {
-    emp.map((obj,index)=>{
-      return <Employee key={index} {...obj} />
-    })
+    emp.map((obj,index)=>
+       <Employee key={index} {...obj} />
+    )
    }
 
 
