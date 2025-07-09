@@ -10,8 +10,8 @@ return (
   <div className="App">
 
    {
-    emp.map((obj)=>{
-      return <Employee name={obj.name} age={obj.age} key={obj.name} />
+    emp.map((obj,index)=>{
+      return <Employee key={index} name={obj.name} age={obj.age} />
     })
    }
 
